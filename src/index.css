@@ -1,0 +1,79 @@
+/* index.css for React demo dashboard */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+  background: #F6F9FC;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+  color: #22223B;
+}
+
+a {
+  color: #3B82F6;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background-color: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+td {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 5px;
+}
+
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.alert {
+  padding: 16px 24px;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px 16px;
+  background: #3B82F6;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #2563eb;
+}
